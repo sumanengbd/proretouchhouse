@@ -1,0 +1,990 @@
+/**********************************
+MEDIA QUERIES
+***********************************/
+@media only screen and (max-width: 1199px) {
+	h1, .h1 { font-size: 64px; line-height: 74px; }
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+	.banner {
+
+		&__content {
+			padding-bottom: 80px;
+		}
+
+		&__text {
+
+			.title {
+				margin-bottom: 10px;
+			}
+		}
+
+		.media {
+
+			&__two {
+			    max-width: 185px;
+			}
+		}
+	}
+
+	.happyclient {
+
+		.content {
+
+			.media {
+				margin-right: 20px;
+
+				img {
+				    width: 200px;
+				    height: 200px;
+				}
+			}
+
+			.item {
+				margin-left: -25px;
+				margin-right: -25px;
+
+				.items {
+				    padding-left: 25px;
+				    margin-right: 25px;
+				}
+			}
+		}
+
+		.scrollDown {
+		    right: 43px;
+		}
+	}
+
+	.newarrival {
+	    padding: 80px 0;
+
+	    .entry-title {
+
+	    	.title {
+	    		margin-bottom: 10px;
+	    	}
+	    }
+	}
+
+	.tradition {
+		padding: 80px 0;
+	}
+
+	.testimonial {
+		padding: 80px 0 260px;
+	}
+
+	.whatwedo {
+		padding: 80px 0;
+
+		&.about {
+		    padding-bottom: 240px;
+		}
+	}
+
+	.recentworks {
+		padding: 80px 0;
+	}
+
+	.latestpost {
+
+		&__item {
+
+			&.has-bg {
+			    min-height: inherit;
+			}
+		}
+	}
+
+	.pagebanner {
+		padding: 80px 0;
+	}
+
+	.call-action-about {
+		padding: 80px 0;
+
+		&.about {
+		    padding-bottom: 240px;
+		}
+	}
+
+	/**********************************
+	ABOUT STYLE
+	***********************************/
+	.teammember {
+		padding: 80px 0;
+	}
+
+}/* 1199 */
+
+@media only screen and (max-width: 991px) {
+	h1, .h1 { font-size: 54px; line-height: 64px; }
+    h2, .h2 { font-size: 48px; line-height: 58px; }
+
+	/***********************************
+	HEADER STYLE
+	***********************************/
+    .header {
+
+        .navbar {
+        	padding: 25px 0;
+
+        	.navbar-header {
+
+        		.logo {
+
+        			.navbar-brand {
+					    max-width: 160px;
+					}
+        		}
+        	}
+
+            .navbar-collapse {
+
+                .navbar-nav {
+
+                    &:not(.navbar-nav-right) {
+
+                        > li {
+
+                            &:nth-last-child(1) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-gutter {
+		height: 105px;
+		min-height: 105px;
+	}
+
+	.sidr {
+
+		.sidr-inner {
+
+			.navbar-header {
+
+				.logo {
+
+					.navbar-brand {
+
+						img {
+						    max-width: 160px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+	.banner {
+
+		&__content {
+			padding: 114px 0 60px;
+		}
+
+		&__text {
+			margin-bottom: 30px;
+
+			.title {
+				margin-bottom: 5px;
+
+				img {
+				    max-width: 55px;
+				    margin-top: -10px;
+				}
+			}
+
+			.mt {
+				margin-top: 25px;
+			}
+		}
+
+		.media {
+
+			&__two {
+			    max-width: 300px;
+			}
+		}
+	}
+
+	.happyclient {
+
+		.content {
+
+			.media {
+				display: none;
+			}
+
+			.item {
+				margin-left: -20px;
+				margin-right: -20px;
+
+				.items {
+				    padding-left: 20px;
+				    margin-right: 20px;
+				}
+			}
+		}
+	}
+
+	.newarrival {
+	    padding: 60px 0;
+
+	    .entry-title {
+
+	    	.title {
+	    		margin-bottom: 5px;
+	    	}
+	    }
+
+	    &__top {
+	    	margin-bottom: 45px;
+	    }
+	}
+
+	.tradition {
+		padding: 60px 0;
+
+		&__text {
+		    margin-left: 100px;
+		}
+
+		&__media {
+
+			.media-2 {
+			    width: 235px;
+			    height: 235px;
+			    right: -117.5px;
+			    border-width: 5px;
+			}
+		}
+	}
+
+	.testimonial {
+		padding: 60px 0 240px;
+
+		.entry-title {
+			margin-bottom: 50px;
+		}
+
+		.text {
+
+			.icon {
+			    font-size: 45px;
+			    margin-bottom: 15px;
+			}
+
+			.info {
+
+				.name {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.contact {
+		padding: 60px 0;
+
+		.content {
+			margin-bottom: 50px;
+		}
+	}
+
+	.whatwedo {
+		padding: 60px 0;
+
+		&.about {
+		    padding-bottom: 220px;
+		}
+
+		&__item {
+
+			.text {
+
+				.title {
+				    margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.recentworks {
+		padding: 60px 0;
+
+		&__item {
+
+			.recentworks-box {
+
+				.media {
+				    @include border-radius(24px);
+				}
+			}
+		}
+	}
+
+	.teammember {
+		padding: 60px 0;
+
+		.entry-title {
+
+			.title {
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	.pagebanner {
+		padding: 60px 0;
+	}
+
+	.call-action-about {
+		padding: 60px 0;
+
+		.call-action {
+			padding: 40px;
+
+			.text {
+			    max-width: 459px;
+			}
+		}
+	}
+
+	.footer {
+		padding-top: 60px;
+	}
+
+}/* 991 */
+
+@media only screen and (max-width: 767px) {
+    h1, .h1 { font-size: 48px; line-height: 58px; @include letter-spacing(48, 30); }
+    h2, .h2 { font-size: 44px; line-height: 54px; @include letter-spacing(44, 30); }
+    h3, .h3 { font-size: 36px; line-height: 46px; @include letter-spacing(36, 30); }
+    h4, .h4 { font-size: 30px; line-height: 40px; @include letter-spacing(30, 30); }
+    h5, .h5 { font-size: 24px; line-height: 34px; @include letter-spacing(24, 30); }
+    h6, .h6 { font-size: 18px; line-height: 28px; @include letter-spacing(18, 30); }
+
+	/***********************************
+	HEADER STYLE
+	***********************************/
+    .header {
+
+        .navbar {
+        	padding: 20px 0;
+
+        	.navbar-header {
+
+        		.logo {
+
+        			.navbar-brand {
+					    max-width: 140px;
+					}
+        		}
+        	}
+
+            .navbar-collapse {
+
+                .navbar-nav {
+
+                    &:not(.navbar-nav-right) {
+
+                        > li {
+
+                            &:nth-last-child(2) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-gutter {
+		height: 88px;
+		min-height: 88px;
+	}
+
+	.sidr {
+
+		.sidr-inner {
+
+			.navbar-header {
+
+				.logo {
+
+					.navbar-brand {
+
+						img {
+						    max-width: 140px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+	.banner {
+
+		&__content {
+			padding-bottom: 50px;
+		}
+
+		&__text {
+
+			.title {
+
+				img {
+				    max-width: 45px;
+				}
+			}
+
+			.mt {
+				margin-top: 20px;
+			}
+		}
+
+		.media {
+
+			&__two {
+			    max-width: 250px;
+			}
+		}
+	}
+
+	.happyclient {
+
+		.content {
+
+			.item {
+				margin-left: -15px;
+				margin-right: -15px;
+
+				.items {
+				    padding-left: 15px;
+				    margin-right: 15px;
+				    margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	.newarrival {
+	    padding: 50px 0;
+
+	    &__top {
+	    	margin-bottom: 40px;
+	    }
+
+	    &__slider {
+
+			.slick-slide {
+
+				.slider-item {
+
+					.text {
+
+						.title {
+							margin-bottom: 0;
+						}
+
+						.prize {
+							font-size: 14px;
+							line-height: 24px;
+						}
+					}
+
+					&:any-link {
+
+						&:hover, &:focus {
+
+							.media {
+
+								img {
+									@include transform(scale(1.2));
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.pagebanner {
+		padding: 50px 0;
+
+		&__content {
+			margin-bottom: 30px;
+
+			.sub-title {
+			    margin-bottom: 0;
+			}
+
+		 	.name {
+			    margin-bottom: 5px;
+			}
+		}
+	}
+
+	.tradition {
+		padding: 50px 0;
+
+		&__text {
+		    margin-left: 0;
+		}
+
+		&__media {
+			margin-bottom: 20px;
+
+			.media-1 {
+				max-width: 600px;
+			}
+
+			.media-2 {
+			    right: 0;
+			}
+		}
+	}
+
+	.testimonial {
+		padding: 50px 0 220px;
+
+		.entry-title {
+			margin-bottom: 40px;
+		}
+
+		.text {
+
+			.icon {
+			    font-size: 40px;
+			    margin-bottom: 10px;
+			}
+		}
+	}
+
+	.contact {
+		padding: 50px 0;
+
+		.content {
+			
+			.title {
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.whatwedo {
+		padding: 50px 0;
+	}
+
+	.teammember {
+		padding: 50px 0;
+
+		&__item {
+			min-height: inherit;
+		}
+	}
+
+	.call-action-about {
+		padding: 50px 0;
+
+		.call-action {
+			padding: 30px;
+
+			.media {
+			    right: -40px;
+			}
+
+			.text {
+				max-width: 377px;
+			}
+		}
+	}
+
+	.recentworks {
+		padding: 50px 0;
+
+		&__item {
+
+			.recentworks-box {
+
+				.media {
+				    @include border-radius(16px);
+				}
+			}
+		}
+	}
+
+	/**********************************
+	FOOTER STYLE
+	***********************************/
+	.latestpost {
+	    margin-bottom: 70px;
+	}
+
+	.footer {
+	    padding: 50px 0;
+
+	    .text {
+	    	margin-bottom: 30px;
+
+	    	.quick-connect {
+	    		max-width: 100%;
+	    	}
+	    }
+
+	    &__bottom {
+		    margin-top: 30px;
+		    padding-top: 30px;
+
+		    .d-flex {
+		    	display: block !important;
+
+		    	.privacy__menu {
+		    		margin-bottom: 10px;
+		    	}
+		    }
+		}
+	}
+
+}/* 767 */
+
+@media only screen and (max-width: 575px) {
+    h1, .h1 { font-size: 46px; line-height: 56px; @include letter-spacing(46, 30); }
+    h2, .h2 { font-size: 44px; line-height: 52px; @include letter-spacing(42, 30); }
+
+    .desc-big {
+	    font-size: 19px;
+	    line-height: 29px;
+	}
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+    .header {
+
+        .navbar {
+
+        	.navbar-header {
+
+        		.logo {
+
+        			.navbar-brand {
+					    max-width: 120px;
+					}
+        		}
+        	}
+
+            .navbar-collapse {
+
+                .navbar-nav {
+
+                    &:not(.navbar-nav-right) {
+
+                        > li {
+
+                            &:nth-last-child(3) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+	.sidr {
+
+		.sidr-inner {
+
+			.navbar-header {
+
+				.logo {
+
+					.navbar-brand {
+
+						img {
+						    max-width: 120px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+    .header-gutter {
+		height: 84px;
+		min-height: 84px;
+	}
+
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+	.banner {
+
+		&__text {
+
+			.title {
+
+				img {
+				    max-width: 40px;
+				}
+			}
+		}
+
+		.overlay {
+		    width: 40%;
+		}
+
+		.media {
+
+			&__two {
+			    max-width: 200px;
+			}
+		}
+	}
+
+	.happyclient {
+
+		.overlay {
+		    width: 40%;
+		}
+
+		.content {
+
+			.item {
+				display: block !important;
+			}
+		}
+	}
+
+	.newarrival {
+	    padding: 40px 0;
+
+	    .entry-title {
+	    	max-width: 370px;
+
+	    	.title {
+	    		margin-bottom: 0;
+	    	}
+	    }
+
+	    &__top {
+	    	margin-bottom: 30px;
+	    }
+	}
+
+	.tradition {
+		padding: 40px 0;
+
+		&__media {
+
+			.media-1 {
+				max-width: 400px;
+			}
+		}
+	}
+
+	.testimonial {
+		padding-top: 40px;
+
+		.row {
+
+			[class^=col] {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		}
+
+		.text {
+			max-width: 100%;
+			margin-bottom: 20px;
+
+			.icon {
+			    font-size: 40px;
+			    margin-bottom: 10px;
+			}
+		}
+	}
+
+	.pagebanner {
+		padding: 40px 0;
+	}
+
+	.contact {
+		padding: 40px 0;
+
+		.content {
+			
+			.title {
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.whatwedo {
+		padding: 40px 0;
+
+		.row {
+
+			[class^=col] {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		}
+	}
+
+	.recentworks {
+		padding: 40px 0;
+	}
+
+	.teammember {
+		padding: 40px 0;
+
+		.entry-title {
+			margin-bottom: 30px;
+		}
+	}
+
+	.call-action-about {
+		padding: 40px 0;
+
+		.call-action {
+
+			.media {
+			    right: -50px;
+			}
+		}
+	}
+
+	.latestpost {
+
+		&__item {
+
+			.text {
+
+				.title {
+					font-size: 20px;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+
+	/**********************************
+	FOOTER STYLE
+	***********************************/
+	.footer {
+	    padding: 40px 0;
+
+	    &__bottom {
+		    margin-top: 15px;
+		    padding-top: 15px;
+		}
+	}
+
+}/* 575 */
+
+@media only screen and (max-width: 480px) {
+
+	/**********************************
+	HEADER STYLE
+	***********************************/
+
+    .header {
+
+        .navbar {
+
+            .navbar-collapse {
+
+                .navbar-nav {
+
+                    &:not(.navbar-nav-right) {
+                        display: none;
+                    }
+
+                    &.navbar-nav-right {
+
+                        > li {
+
+                            &:nth-child(1) {
+
+                                &:not(.mobile-navbar-toggler) {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+	/**********************************
+	HOME STYLE
+	***********************************/
+
+	.banner {
+
+		.media {
+
+			&__two {
+			    max-width: 150px;
+			}
+		}
+	}
+
+	.call-action-about {
+
+		.call-action {
+
+			.media {
+			    right: -50px;
+			}
+		}
+	}
+
+	.tradition {
+		padding: 40px 0;
+
+		&__media {
+
+			.media-1 {
+				max-width: 350px;
+			}
+		}
+	}
+
+	.latestpost__item {
+
+		.icon {
+			font-size: 30px;
+		}
+
+		.text {
+
+			.title {
+			    font-size: 14px;
+			    line-height: 17px;
+			}
+		}
+	}
+
+}/* 480 */

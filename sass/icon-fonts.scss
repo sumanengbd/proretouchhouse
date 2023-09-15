@@ -1,0 +1,11 @@
+// MIXIN
+@import 'mixin';
+
+// ICON FONTS
+@include icon-config(
+	'../fonts', 
+	'proretouchhouse', 
+	'88612267'
+);
+
+@import 'icon';
