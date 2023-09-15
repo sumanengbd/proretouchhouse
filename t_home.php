@@ -120,7 +120,7 @@ get_header( '', array('gutter' => false, 'transparent' => true) );
 					</div>
 				</div>
 
-				<button class="scrollDown round-text wow animate__zoomIn" data-space="74" data-round="<?php echo __('Explore All • Explore All • Explore All • ', 'proretouchhouse') ?>" data-radius="76" data-wow-delay="0.4s">
+				<button class="scrollDown round-text wow animate__zoomIn" data-space="0" data-round="<?php echo __('Explore All • Explore All • Explore All • ', 'proretouchhouse') ?>" data-radius="76" data-wow-delay="0.4s">
 				    <i class="icon-arrow-drown"></i>
 				</button>
 			</div>
@@ -128,7 +128,7 @@ get_header( '', array('gutter' => false, 'transparent' => true) );
 		<?php endif;
 
 		$what_we_do = get_field( 'what_we_do' ); if ( !empty( $what_we_do ) && array_filter( $what_we_do ) ): ?>
-		<section class="whatwedo">
+		<section id="what-we-do" class="whatwedo">
 		    <div class="container">
 		    	<?php if ( $what_we_do['title'] || $what_we_do['description'] ): ?>
                 <div class="entry-title text-center">
