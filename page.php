@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('', array('gutter' => false, 'transparent' => true)); ?>
 
 	<section class="breadcrumb-wrapper">
 		<div class="container">

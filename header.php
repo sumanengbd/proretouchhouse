@@ -107,7 +107,7 @@
 		</div>
 	</header><!--/header -->
 	<?php
-	    if ( !isset( $args['gutter'] ) && !$args['gutter'] ) 
+	    if ( isset($args['gutter']) &&  !$args['gutter'] ) 
 	    {
 	        echo '<div class="header-gutter"></div>';
 	    }

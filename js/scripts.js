@@ -517,8 +517,8 @@ a.callFilters("promiseQueueMix",i.promise,arguments)},getDataOperation:function(
       imgElement.src = randomImage;
     }
 
-    // Display a random image every 3 seconds
-    setInterval(displayRandomImage, 1000);
+    // Display a random image every 2 seconds
+    setInterval(displayRandomImage, 2000);
 
     // Initial image display
     displayRandomImage();

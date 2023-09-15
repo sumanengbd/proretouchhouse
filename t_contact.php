@@ -2,7 +2,7 @@
 /*
 Template Name: Contact
 */
-get_header('', array('transparent' => true)); ?>
+get_header('', array('gutter' => false, 'transparent' => true)); ?>
 	
 	<section class="breadcrumb-wrapper">
 		<div class="container">
