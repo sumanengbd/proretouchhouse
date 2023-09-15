@@ -2463,6 +2463,10 @@ FOOTER STYLES
 /***********************************
 DEFAULT STYLES
 ***********************************/
+.default-page {
+    padding: 80px 0 250px;
+}
+
 .content__editor {
 
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -2539,6 +2543,42 @@ DEFAULT STYLES
 				margin-top: 20px;
 				margin-bottom: 20px;
 			}
+		}
+	}
+}
+
+.error-404 {
+	
+	.error-header {
+	    width: 100%;
+	    margin-top: 0;
+	    max-width: 890px;
+		padding: 0 0 15px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 15px;
+	    min-height: inherit;
+		background: transparent;
+		border-bottom: 1px dashed $primary;
+
+		&:after, &:before {
+			content: none;
+		}
+
+		.hero {
+			margin: 0;
+			font-size: clamp(3.5rem, 7.55vw, 7rem);
+		}
+	}
+
+	.error-content {
+
+		p {
+			margin: 0;
+		}
+
+		.btn {
+			margin-top: 30px;
 		}
 	}
 }

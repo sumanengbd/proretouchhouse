@@ -364,6 +364,10 @@ MEDIA QUERIES
 		padding-top: 60px;
 	}
 
+	.default-page {
+	    padding-top: 60px;
+	}
+
 }/* 991 */
 
 @media only screen and (max-width: 767px) {
@@ -662,6 +666,10 @@ MEDIA QUERIES
 		}
 	}
 
+	.default-page {
+	    padding-top: 50px;
+	}
+
 }/* 767 */
 
 @media only screen and (max-width: 575px) {
@@ -897,6 +905,11 @@ MEDIA QUERIES
 		    margin-top: 15px;
 		    padding-top: 15px;
 		}
+	}
+
+	.default-page {
+	    padding-top: 40px;
+	    padding-bottom: 200px;
 	}
 
 }/* 575 */

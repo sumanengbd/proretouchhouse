@@ -507,5 +507,21 @@ a.callFilters("promiseQueueMix",i.promise,arguments)},getDataOperation:function(
 	    });
 	});
 
+	// Function to display a random image from the data-image attribute
+    function displayRandomImage() {
+      var imgElement = document.getElementById("randomImage");
+      var dataImageAttribute = imgElement.getAttribute("data-image");
+      var imageArray = dataImageAttribute.substring(1, dataImageAttribute.length - 1).split(", ");
+      var randomIndex = Math.floor(Math.random() * imageArray.length);
+      var randomImage = imageArray[randomIndex];
+      imgElement.src = randomImage;
+    }
+
+    // Display a random image every 3 seconds
+    setInterval(displayRandomImage, 1000);
+
+    // Initial image display
+    displayRandomImage();
+
 
 }(jQuery));
