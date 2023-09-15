@@ -5,7 +5,7 @@ header( "Location: ". get_bloginfo( 'url' ) );
 
 exit();
 
-get_header('', array('transparent' => true)); ?>
+get_header('', array('gutter_disable' => false, 'transparent' => true)); ?>
 
 	<section class="breadcrumb-wrapper">
 		<div class="container">

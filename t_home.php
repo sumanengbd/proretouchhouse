@@ -2,7 +2,7 @@
 /*
 Template Name: Home
 */
-get_header( '', array('gutter' => false, 'transparent' => true) ); 
+get_header( '', array('gutter_disable' => true, 'transparent' => true) ); 
 
 	$banner = get_field( 'banner' ); ?>
 
